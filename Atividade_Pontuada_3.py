@@ -25,7 +25,7 @@ def reservar_passagem():
 
     numero = int(input('Digite o número do avião para reserva: '))
     idx = encontrar_aviao(numero)
-
+# idx(Index)
     if idx == -1:
         print('Este avião não existe!')
     elif assentos[idx] <= 0:
@@ -88,3 +88,4 @@ while True:
         break
     else:
         print("Opção inválida!")
+# Encerrando Progama
